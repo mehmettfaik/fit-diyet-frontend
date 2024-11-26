@@ -60,7 +60,7 @@ function DietForm() {
     setError(null);
 
     try {
-      const response = await fetch("http://localhost:5001/generate-diet", {
+      const response = await fetch("https://fit-diyet-backend.onrender.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
