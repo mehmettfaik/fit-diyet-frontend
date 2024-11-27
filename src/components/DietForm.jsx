@@ -131,7 +131,7 @@ function DietForm() {
           <input name="weight" type="number" placeholder="Kilonuz (kg)" value={formData.weight} onChange={handleChange} required />
           <input name="targetWeight" type="number" placeholder="Hedeflediğiniz Kilo  (kg)" value={formData.targetWeight} onChange={handleChange} required />
           <select name="duration" value={formData.duration} onChange={handleChange}>
-            <option value="7">7 Days</option>
+            <option value="7">7 Günlük</option>
           </select>
           <button type="submit" disabled={loading}>
             {loading ? "Oluşturuluyor..." : "Diyet Planı Oluştur"}
