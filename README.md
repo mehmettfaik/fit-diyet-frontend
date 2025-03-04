@@ -35,3 +35,5 @@ Fit Diyet, kullanıcıların kişisel bilgilerine göre **7 günlük kişiselle�
    npm start
    ```
 ### Görsel
+
+![resim1](https://github.com/mehmettfaik/fit-diyet-frontend/blob/main/src/images/IMG-1.jpg)
